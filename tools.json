@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Visual Studio Code x64 (v1.63.2)",
+    "Repository": "https://go.microsoft.com/fwlink/?Linkid=852157",
+    "Exe": "VSCodeUserSetup-x64-1.63.2.exe",
+    "Args": "/VERYSILENT /NORESTART /MERGETASKS=!runcode"
+  },
+  {
+    "Name": ".NET 6.0 SDK x64 (v6.0.101)",
+    "Repository": "C:\\Repository",
+    "Exe": "dotnet-sdk-6.0.101-win-x64.exe",
+    "Args": "/INSTALL /QUIET /NORESTART"
+  }
+]
