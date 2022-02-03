@@ -14,7 +14,7 @@ This was written purely for the purpose of sharing knowledge about Azure PowerSh
 #### 1. Prepare the list of tools that will be installed on Azure VM.
 The script refers to tools.json file. 
 The JSON file is an array of the objects. The object contains the details of installer of a tool.
-these are keys in an object.
+These are keys in an object.
 * Name: Name of the tool. This name is also used for the folder name.
 * Repository: Location of the installer of the tool
 * Exe: File name of the installer.
@@ -67,7 +67,7 @@ The you can use Remote Desktop to connect to the Azure VM and see if the tools a
 Get-AzVMSize -Location "southcentralus" | Out-GridView
 ```
 
-[Sizes for virtual machines in Azure]([https://docs.microsoft.com/en-us/azure/virtual-machines/sizes]) is also quite useful for you to understand what VM size suits for your workloads.
+[Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes) is also quite useful for you to understand what VM size suits for your workloads.
 
 
 * Get all Azure locations.
